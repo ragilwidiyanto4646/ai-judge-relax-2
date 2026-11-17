@@ -1,3 +1,6 @@
+# Deterministic contract: writes one fixed text to the output path given
+# by MAKEFUN_OUTPUT_DIR (default /output), byte-identical on every run.
+# Standard library only; no network access.
 """Deterministically write one short relaxing text to entry.txt.
 
 Standard library only, no network, no randomness. The text is fixed in
